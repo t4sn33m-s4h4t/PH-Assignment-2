@@ -23,7 +23,7 @@ a{
 }
 button{
     padding: 16px 50px ;
-    font-size: 600;
+    font-weight: 600;
     font-size: 1rem;
     border-radius: 40px;
     color: #fff;
@@ -104,6 +104,10 @@ section {
     display: none;
 }
 .hero{
+    
+    background: url("../images/Images 2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
@@ -129,10 +133,7 @@ section {
 .hero .right{
     position: relative;
 }
-.hero .right img{
-    position: absolute;
-    right: 0;
-}
+
 .hero .small-card{
     backdrop-filter: blur(10px);
     background-color: #3030308A;;
@@ -186,6 +187,7 @@ section {
 .cng-habits .row{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 30px;
 }
 .cng-habits .section-description{
     width: 70%;
@@ -271,7 +273,7 @@ transform: scale(1.2);
 .training .img-card  p{
     position: absolute;
     z-index: 2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .training .training-image-gallery{
@@ -618,52 +620,3 @@ footer.footer .copyright {
 
 
 
-
-@media (max-width: 576px) {
-    .header{
-        height: 100vh;
-    }
-    .header .navbar .desktop-menu{
-        display: none;
-    }
-    .hamburger{
-        display: block;
-    }
-    .hamburger i {
-        font-size: 24px; 
-        cursor: pointer;
-    }
-    .hero{
-        margin-top: 50px;
-        grid-template-columns: 1fr;
-        gap: 0;
-        height: 50vh
-    }
-
-    .hero .left{
-        align-self: start;
-    }
-    .hero .left h1{
-        font-size: 2.2rem;
-    }
-    .hero .btns{
-        justify-content: space-between;
-    } 
-    .hero .small-card{
-        top: 60%;
-   
-    }
-    .hero .primary-small-card{
-        top: auto;
-        bottom: -700%;
-        right: 50%;
-
-    }
-    .cng-habits{
-        
-    margin-top: 250px;
-    }
-    .cng-habits .row{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}

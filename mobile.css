@@ -1,0 +1,178 @@
+
+@media (max-width: 576px) {
+    section{
+        margin: 5% 7%;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .section-description {
+        margin-top: 0;
+        width: 90%!important;
+    }
+    button{
+        padding: 16px 20px;
+    }
+    .header{
+        height: 100vh;
+    }
+    .header .navbar .desktop-menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger i {
+        font-size: 24px; 
+        cursor: pointer;
+    }
+    .hero{
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        gap: 0;
+        height: 110vh;
+        background-position: top left;
+        background-position-y: 420px;
+    }
+
+    .hero .left{
+        align-self: start;
+    }
+    .hero .left h1{
+        font-size: 2.2rem;
+    }
+    .hero .btns{
+        justify-content: space-between;
+    } 
+    .hero .small-card{
+        top: -85%;
+        right: 0;
+   
+    }
+    .hero .primary-small-card{
+        right: 45%;
+        top: 20%;
+    }
+    .hero .small-card:nth-of-type(1){
+        padding:  15px 10px;
+    }
+    
+    .hero .small-card:nth-of-type(1) h3{
+        font-size: 1.8rem;
+    }
+    .hero .primary-small-card h3{
+        font-size: 1.4rem;
+    }
+
+
+    
+    .cng-habits{
+    margin-top: 200px;
+    }
+    .cng-habits .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cng-habits .row .circle-card-description {
+    margin: 15px 25px;
+    }
+
+
+
+
+    .join-now{
+        padding: 20px;
+    grid-template-columns: 1fr;
+gap: 40px;
+    }
+    .join-now .wrap {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+    }
+    .join-now .right img {
+        height: auto;
+        object-fit: contain;
+        transform: scale(1.4) translate(-30px, 35px);
+    }
+    .join-now .btn-primary {
+        width: 100%;
+    }
+
+
+
+
+    .training .training-image-gallery{
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-areas:
+        "item1 item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 "
+        "item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5";
+    
+    }
+    .training .img-card:nth-of-type(3), .training .img-card:nth-of-type(6){
+        display: none;
+    }
+    .training .img-card:nth-of-type(4) p {
+        top: auto;
+        bottom: 35px;
+        left: 30px;
+    }
+    .training .img-card-description{
+        font-size: 14px;
+    }
+
+
+    .bmi-chart-calculator{
+    grid-template-columns: 1fr;
+    gap: 5%;
+}
+.bmi-chart-calculator .chart {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    text-align:left;
+}
+
+.bmi-chart-calculator .h3-title{
+    margin-bottom: 20px;
+}
+
+.bmi-chart-calculator .btn-primary{
+    width: 70%;
+    margin: 20px 0 50px 0;    
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+.team .team-cards {
+    grid-template-columns: 1fr;
+}
+
+
+footer.footer .secondary-footer{
+    grid-template-columns: 1fr;
+}
+footer.footer .secondary-footer > div {
+    margin-left: 0;
+}
+footer.footer .footer-description {
+    font-size: 14px;
+}
+footer.footer .h3-title {
+    margin-top: 15px;
+    font-size: 2rem;
+}
+footer.footer .footer-menu li {
+    font-size: 20px;
+}
+
+footer.footer .footer-logo {
+    font-size: 4.2rem;
+    margin-bottom: 10px;
+}
+}
