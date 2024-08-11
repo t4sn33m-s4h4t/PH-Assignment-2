@@ -189,6 +189,24 @@ gap: 40px;
 }
 
 
+
+
+
+.pricing{
+    padding: 5% 7%;
+}
+.pricing .row {
+    grid-template-columns: 1fr ;
+    gap: 90px;
+    margin-top: 0;
+}
+.pricing .middle-column .pricing-card  {
+    transform: translateY(0);
+}
+
+
+
+
 footer.footer .secondary-footer{
     grid-template-columns: 1fr;
 }

@@ -558,6 +558,98 @@ transform: scale(1.2);
 
 
 
+.pricing {
+    background-color: #000;
+    padding: 5% 13.5%;
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.pricing .section-description{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 75px -15px;
+    gap: 2%;
+}
+.pricing-column {
+    
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+.pricing .pricing-card {
+    background-color: #222;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0 50px 0;
+    height: 100%;
+}
+
+.pricing .middle-column .pricing-card  {
+    transform: translateY(-75px);
+}
+
+  .pricing .pricing-card-header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 5px solid var(--primary-color);
+    border-right: 5px solid var(--primary-color);
+}
+
+.pricing .pricing-card-body {
+    padding: 30px 20px;
+}
+
+.pricing .pricing-card-body h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing .pricing-card-body p {
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+    opacity: .5;
+}
+.pricing .pricing-card-body p::before {
+    content: '\2714'; 
+    margin-right: 8px; 
+    font-size: 1.2rem;
+}
+
+.pricing .pricing-card-body button {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border: none;
+    bottom: 0;
+}.pricing .pricing-card-body button:hover {
+    background-color: #7f7f7f;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
