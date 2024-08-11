@@ -444,11 +444,13 @@ transform: scale(1.2);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.bmi-chart-calculator .chart .h3-title{
+    text-align: center;
+}
 .bmi-chart-calculator .chart {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 
 .bmi-chart-calculator .chart-table {
@@ -456,11 +458,12 @@ transform: scale(1.2);
     border-collapse: collapse;
     margin-top: 10px;
 }
-
+.bmi-chart-calculator .chart-table th{
+    text-align: left;
+}
 .bmi-chart-calculator .chart-table th, .chart-table td {
     border: 1px solid #444;
     padding: 8px;
-    text-align: center;
 }
 .bmi-chart-calculator td{
     color: #fff;
