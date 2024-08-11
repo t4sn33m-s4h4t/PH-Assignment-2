@@ -438,7 +438,11 @@ transform: scale(1.2);
     grid-template-columns: 3fr 4fr;
     gap: 20%;
 }
-
+.bmi-chart-calculator .calculator{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
 .bmi-chart-calculator .chart {
     padding: 20px;
@@ -532,7 +536,21 @@ transform: scale(1.2);
     right: 0;
     background: radial-gradient(circle, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
 }
-
+.team .team-card-details{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    z-index: 1
+}
+.team .team-card-details .team-card-title{
+    font-size: 1.25rem;
+}
+.team .team-card-details .team-card-description{
+    font-size: .9rem;
+    color: #fff;
+    opacity: 50%    ;
+}
 
 
 
@@ -558,7 +576,6 @@ footer.footer .secondary-footer > div{
 footer.footer .secondary-footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    justify-content: s;
 }
 
 footer.footer .footer-logo {
