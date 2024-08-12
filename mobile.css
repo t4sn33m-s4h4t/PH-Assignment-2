@@ -1,7 +1,7 @@
 
 @media (max-width: 576px) {
     section{
-        margin: 5% 7%;
+        margin: 6% 7%;
     }
     .section-title {
         font-size: 2rem;
@@ -13,9 +13,8 @@
     button{
         padding: 16px 20px;
     }
-    .header{
-        height: 100vh;
-    }
+    
+    
     .header .navbar {
         padding: 3% 7%;
     }
@@ -49,7 +48,7 @@
         font-size: 2.2rem;
     }
     .hero .btns button{
-        padding: 15px;
+        padding: 15px 5px;
         width: 50%;
     } 
     .hero .primary-small-card{
@@ -59,6 +58,14 @@
         top: auto;
         left: 10%;
         right: auto;
+    }
+    .hero  .play-btn{
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        transform: translateX(2px);
+        color: white;
     }
 
     .hero .small-card:nth-of-type(1){
@@ -77,9 +84,8 @@
 
 
     
-    .cng-habits{
-    margin-top: 200px;
-    }
+
+    
     .cng-habits .row{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -153,7 +159,7 @@ gap: 40px;
     .bmi-chart-calculator{
     grid-template-columns: 1fr;
     gap: 5%;
-    padding: 5% 7%;
+    padding: 6% 7%;
 }
 .bmi-chart-calculator .chart {
     padding: 0;
@@ -193,9 +199,10 @@ gap: 40px;
 
 
 .pricing{
-    padding: 5% 7%;
+    padding: 6% 7%;
 }
 .pricing .row {
+    
     grid-template-columns: 1fr ;
     gap: 90px;
     margin-top: 0;
