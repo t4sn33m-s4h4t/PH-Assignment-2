@@ -1,0 +1,282 @@
+@media (max-width: 576px) {
+
+    /* common code starts  */
+
+    section {
+        margin: 6% 7%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        margin-top: 0;
+        width: 90% !important;
+    }
+
+    button {
+        padding: 16px 20px;
+    }
+
+    /* common code ends  */
+
+    /* header starts  */
+    /* navbar starts starts  */
+    .header .navbar {
+        padding: 3% 7%;
+    }
+
+    .header .navbar .desktop-menu {
+        display: none;
+    }
+
+    .header .navbar .hamburger {
+        display: flex;
+    }
+
+    .header .navbar .hamburger img {
+        height: 25px;
+        cursor: pointer;
+    }
+
+    /* navbar starts ends  */
+    /* hero section starts  */
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 0;
+        height: 920px;
+        background-position: center;
+        background-position-y: 420px;
+        margin: 5% 2%;
+    }
+
+    .hero .left {
+        align-self: start;
+        margin: 0 5%;
+    }
+
+    .hero .right {
+        height: inherit;
+    }
+
+    .hero .left h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero .btns button {
+        padding: 15px 5px;
+        width: 50%;
+    }
+
+    .hero .primary-small-card {
+
+
+        bottom: 500px;
+        top: auto;
+        left: 10%;
+        right: auto;
+    }
+
+    .hero .play-btn {
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        transform: translateX(2px);
+        color: var(--text-color);
+    }
+
+    .hero .small-card:nth-of-type(1) {
+        padding: 15px 10px;
+        top: 8%;
+        right: auto;
+        left: 55%;
+    }
+
+    .hero .small-card:nth-of-type(1) h3 {
+        font-size: 1.8rem;
+    }
+
+    .hero .primary-small-card h3 {
+        font-size: 1.4rem;
+    }
+
+    /* hero section ends  */
+
+    /* header ends  */
+/* cng-habit section starts  */
+    .cng-habits .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cng-habits .row .circle-card-description {
+        margin: 15px 25px;
+    }
+    /* cng-habit section ends  */
+
+    /* Join Now section starts  */
+
+    .join-now {
+        padding: 20px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .join-now .wrap {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .join-now .right img {
+        height: auto;
+        object-fit: contain;
+        transform: scale(1.4) translate(-30px, 20px);
+    }
+
+    .join-now .btn-primary {
+        width: 100%;
+    }
+
+    /* Join Now section ends  */
+    /* training secton starts  */
+
+    .training .training-image-gallery {
+        grid-template-columns: repeat(13, 1fr);
+        grid-template-areas:
+            "item1 item1 item1 item1 item1 item1 item1 item2 item2 item2 item2 item2 item2 "
+            "item4 item4 item4 item4 item4 item4 item5 item5 item5 item5 item5 item5 item5";
+
+    }
+
+    .training .img-card:nth-of-type(3),
+    .training .img-card:nth-of-type(6) {
+        display: none;
+    }
+
+    .training .img-card:nth-of-type(4) p {
+        top: auto;
+        bottom: 10%;
+        left: 10%;
+    }
+
+    .training .img-card:nth-of-type(1) p {
+
+        bottom: 10%;
+        left: 10%;
+    }
+
+    .training .img-card:nth-of-type(2) p {
+
+        top: 10%;
+        left: 10%;
+    }
+
+    .training .img-card:nth-of-type(5) p {
+
+        bottom: 10%;
+        left: 10%;
+    }
+
+    .training .img-card-description {
+        font-size: 14px;
+    }
+
+    /* training secton ends  */
+
+
+
+
+    /* BMI section stats  */
+    .bmi-chart-calculator {
+        grid-template-columns: 1fr;
+        gap: 5%;
+        padding: 6% 7%;
+    }
+
+    .bmi-chart-calculator .chart {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+        text-align: left;
+    }
+
+    .bmi-chart-calculator .chart .h3-title {
+        text-align: left;
+    }
+
+    .bmi-chart-calculator .calculator {
+        padding: 0;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+    }
+
+    .bmi-chart-calculator .h3-title {
+        margin-bottom: 20px;
+    }
+
+    .bmi-chart-calculator .btn-primary {
+        width: 70%;
+        margin: 20px 0 50px 0;
+        padding: 10px 20px;
+    }
+
+    /* BMI section ends  */
+
+    /* Team section starts  */
+    .team .team-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Team section ends  */
+
+    /* Pricing section starts  */
+    .pricing {
+        padding: 6% 7%;
+    }
+
+    .pricing .row {
+
+        grid-template-columns: 1fr;
+        gap: 90px;
+        margin-top: 0;
+    }
+
+    .pricing .middle-column .pricing-card {
+        transform: translateY(0);
+    }
+
+    /* Pricing section ends  */
+
+
+
+    /* Footer section starts  */
+    footer.footer .secondary-footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer.footer .secondary-footer>div {
+        margin-left: 0;
+    }
+
+    footer.footer .footer-description {
+        font-size: 14px;
+    }
+
+    footer.footer .h3-title {
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+
+    footer.footer .footer-menu li {
+        font-size: 20px;
+    }
+
+    footer.footer .footer-logo {
+        font-size: 4.2rem;
+        margin-bottom: 10px;
+    }
+
+    /* Footer section ends  */
+}
